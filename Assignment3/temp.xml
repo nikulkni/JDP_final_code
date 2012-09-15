@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.7.0_05" class="java.beans.XMLDecoder">
+ <object class="edu.indiana.p532.saver.GameState">
+  <void property="ball">
+   <object class="edu.indiana.p532.game.Ball">
+    <void property="velocityX">
+     <int>-3</int>
+    </void>
+    <void property="velocityY">
+     <int>-3</int>
+    </void>
+    <void property="x">
+     <int>10</int>
+    </void>
+    <void property="y">
+     <int>79</int>
+    </void>
+   </object>
+  </void>
+  <void property="bricksList">
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="edu.indiana.p532.game.Brick">
+      <void property="x">
+       <int>20</int>
+      </void>
+      <void property="y">
+       <int>20</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="edu.indiana.p532.game.Brick">
+      <void property="x">
+       <int>85</int>
+      </void>
+      <void property="y">
+       <int>20</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="edu.indiana.p532.game.Brick">
+      <void property="x">
+       <int>150</int>
+      </void>
+      <void property="y">
+       <int>20</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="edu.indiana.p532.game.Brick">
+      <void property="x">
+       <int>215</int>
+      </void>
+      <void property="y">
+       <int>20</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="edu.indiana.p532.game.Brick">
+      <void property="x">
+       <int>280</int>
+      </void>
+      <void property="y">
+       <int>20</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="edu.indiana.p532.game.Brick">
+      <void property="x">
+       <int>20</int>
+      </void>
+      <void property="y">
+       <int>45</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="edu.indiana.p532.game.Brick">
+      <void property="x">
+       <int>85</int>
+      </void>
+      <void property="y">
+       <int>45</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="edu.indiana.p532.game.Brick">
+      <void property="x">
+       <int>150</int>
+      </void>
+      <void property="y">
+       <int>45</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="edu.indiana.p532.game.Brick">
+      <void property="hit">
+       <boolean>true</boolean>
+      </void>
+      <void property="x">
+       <int>215</int>
+      </void>
+      <void property="y">
+       <int>45</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="edu.indiana.p532.game.Brick">
+      <void property="x">
+       <int>280</int>
+      </void>
+      <void property="y">
+       <int>45</int>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void property="paddle">
+   <object class="edu.indiana.p532.game.Paddle">
+    <void property="x">
+     <int>166</int>
+    </void>
+    <void property="y">
+     <int>550</int>
+    </void>
+   </object>
+  </void>
+  <void property="score">
+   <object class="edu.indiana.p532.game.Score">
+    <void property="score">
+     <int>10</int>
+    </void>
+   </object>
+  </void>
+  <void property="time">
+   <int>417</int>
+  </void>
+ </object>
+</java>
